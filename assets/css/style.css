@@ -35,7 +35,7 @@ p{
     color: #555;
 }
 .container{
-    max-width: 1300px;
+    width: 1300px;
     margin: auto;
     padding: 25px 25px;
 
@@ -99,4 +99,76 @@ p{
     margin: auto;
     padding-left: 25px;
     padding-right:  25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+
+.col-4 img{
+    width: 100%;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:#555
+}
+h2::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #b44929;
+}
+.col-4:hover{
+    transform: translateY(-5px)
+
+}
+.offer {
+    background: url('../images/exclusive.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.col-2 .offer-img{
+    padding: 50px;
+    margin-top: 80px;
+    padding: 0;
+    width: auto;
+    background-position: 125px;
+    margin: 0;
+
+}
+small {
+    color: #555;
+}
+.col-2 a {
+    justify-content: center;
+    margin-top: 15%;
+    text-align: center;
 }
